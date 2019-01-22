@@ -1,0 +1,19 @@
+import { Link } from "gatsby"
+
+import Image from "../components/Image"
+import SEO from "../components/Seo"
+import Device from "../components/Device"
+
+<SEO title="Template" keywords={["gatsby", "application", "react"]} />
+
+# This is a Sample App
+
+You can make custom mockups of apps in the mockups folder and then view them using a `<Device />` frame.
+
+You can view any mockup through a `<Device />`. Devices can show the mockup in portrait or landscape mode. Currently the mockups are accessible from the sidebar menu, but this is just to show what they look like raw.
+
+<Device src="/patterns/sample-pattern" variant="mobile" />
+
+This is what your app template looks like in landscape format.
+
+<Device src="/patterns/sample-pattern" variant="desktop" />
